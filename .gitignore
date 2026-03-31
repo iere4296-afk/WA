@@ -1,0 +1,47 @@
+.git
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+backend/dist/
+frontend/.next/
+frontend/.next-dev/
+frontend/out/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Local deployment metadata
+.vercel/
+.railway/
+
+# Logs
+*.log
+.backend-dev.stdout.log
+.backend-dev.stderr.log
+.frontend-dev.stdout.log
+.frontend-dev.stderr.log
+
+# IDE and assistant state
+.agents/
+.vscode/
+.windsurf/
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data dumps / samples
+*.xlsx
+
+# Local auth/debug artifacts
+.login-response.html
