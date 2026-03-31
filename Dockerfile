@@ -24,6 +24,6 @@ COPY --from=build /app/backend/package-lock.json ./package-lock.json
 COPY --from=build /app/backend/node_modules ./node_modules
 COPY --from=build /app/backend/dist ./dist
 
-EXPOSE 8080
+EXPOSE 3001
 
 CMD ["npm", "run", "start"]
